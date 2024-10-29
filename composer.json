@@ -1,0 +1,14 @@
+{
+    "version": "0.1.0",
+    "author": "Nitin Prakash",
+    "autoload": {
+        "psr-4": {
+            "ApproveOrders\\": "src/",
+            "ApproveOrders\\Compatibility\\": "src/compatibility/",
+            "ApproveOrders\\Modules\\": "src/modules/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}

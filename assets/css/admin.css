@@ -1,0 +1,15 @@
+/* 
+ * Author: NeeB Plugins
+ * Author URI: https://neebplugins.com 
+ * Description: This stylesheet contains styles for the admin styles. 
+ */
+ 
+.aofwc-approve {
+    color: green !important;
+    border-color: green !important;
+}
+
+.aofwc-reject {
+    color: red !important;
+    border-color: red !important;
+}

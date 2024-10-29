@@ -1,0 +1,383 @@
+# Copyright (C) 2024 Nitin Prakash
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Approve Orders 0.1.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/approve-orders\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-27T12:23:32+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: approve-orders\n"
+
+#. Plugin Name of the plugin
+#: src/Backend.php:55
+#: src/Backend.php:56
+msgid "Approve Orders"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/approve-orders"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds an order approval, cancellation workflow to your WooCommerce store."
+msgstr ""
+
+#. Author of the plugin
+msgid "Nitin Prakash"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://nitin247.com"
+msgstr ""
+
+#: approve-orders.php:164
+msgid "Multisite Not Supported, Please deactivate Approve Orders plugin"
+msgstr ""
+
+#: src/Backend.php:102
+msgid "Approve Orders Settings"
+msgstr ""
+
+#: src/Backend.php:110
+msgid "Order Approval Workflow"
+msgstr ""
+
+#: src/Backend.php:114
+msgid "( Set new orders to 'Awaiting Approval' )"
+msgstr ""
+
+#: src/Backend.php:118
+msgid "Status after Approval"
+msgstr ""
+
+#: src/Backend.php:125
+msgid "( Set the order status for approved orders )"
+msgstr ""
+
+#: src/Backend.php:129
+msgid "Status after Rejection"
+msgstr ""
+
+#: src/Backend.php:136
+msgid "( Set the order status for rejected orders )"
+msgstr ""
+
+#: src/Backend.php:140
+msgid "Payment Gateway for Order Approval"
+msgstr ""
+
+#: src/Backend.php:147
+msgid "( Send orders for approval to selected gateways. Leave blank to allow all )"
+msgstr ""
+
+#: src/Backend.php:152
+msgid "User Role for Order Approval"
+msgstr ""
+
+#: src/Backend.php:159
+msgid "( Send orders for approval to selected roles. Leave blank for all )"
+msgstr ""
+
+#: src/Backend.php:196
+#: src/Backend.php:233
+msgctxt "Order status"
+msgid "Awaiting Approval"
+msgstr ""
+
+#: src/Backend.php:201
+msgid "Awaiting Approval <span class=\"count\">(%s)</span>"
+msgid_plural "Awaiting Approval <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Backend.php:205
+#: src/Backend.php:234
+msgctxt "Order status"
+msgid "Approved"
+msgstr ""
+
+#: src/Backend.php:210
+msgid "Approved <span class=\"count\">(%s)</span>"
+msgid_plural "Approved <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Backend.php:214
+#: src/Backend.php:235
+msgctxt "Order status"
+msgid "Rejected"
+msgstr ""
+
+#: src/Backend.php:219
+msgid "Rejected <span class=\"count\">(%s)</span>"
+msgid_plural "Rejected <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Backend.php:248
+msgid "Status"
+msgstr ""
+
+#: src/Backend.php:375
+msgid "Approve"
+msgstr ""
+
+#: src/Backend.php:382
+#: src/Backend.php:395
+msgid "Reject"
+msgstr ""
+
+#: src/Frontend.php:88
+#: src/modules/PrePayGateway.php:95
+msgid "Awaiting pre order payment"
+msgstr ""
+
+#: src/modules/AdminAwaitingApprovalNotification.php:20
+#: src/modules/AdminAwaitingApprovalNotification.php:22
+msgid "Order Awaiting Approval"
+msgstr ""
+
+#: src/modules/AdminAwaitingApprovalNotification.php:21
+msgid "Notification sent to admin when an order status changes to Awaiting Approval."
+msgstr ""
+
+#: src/modules/AdminAwaitingApprovalNotification.php:23
+msgid "[{site_title}] Order #{order_number} is awaiting approval"
+msgstr ""
+
+#: src/modules/AdminAwaitingApprovalNotification.php:107
+#: src/modules/ApprovedOrderNotification.php:92
+#: src/modules/PendingPaymentNotification.php:92
+#: src/modules/PrePayGateway.php:49
+#: src/modules/RejectedOrderNotification.php:92
+msgid "Enable/Disable"
+msgstr ""
+
+#: src/modules/AdminAwaitingApprovalNotification.php:109
+#: src/modules/ApprovedOrderNotification.php:94
+#: src/modules/PendingPaymentNotification.php:94
+#: src/modules/RejectedOrderNotification.php:94
+msgid "Enable this email notification"
+msgstr ""
+
+#: src/modules/AdminAwaitingApprovalNotification.php:113
+msgid "Recipient(s)"
+msgstr ""
+
+#: src/modules/AdminAwaitingApprovalNotification.php:115
+msgid "Enter recipient(s) (comma separated) for this email. Defaults to %s."
+msgstr ""
+
+#: src/modules/AdminAwaitingApprovalNotification.php:120
+#: src/modules/ApprovedOrderNotification.php:98
+#: src/modules/PendingPaymentNotification.php:98
+#: src/modules/RejectedOrderNotification.php:98
+msgid "Subject"
+msgstr ""
+
+#: src/modules/AdminAwaitingApprovalNotification.php:122
+msgid "This controls the email subject line. Leave blank to use the default subject: <code>%s</code>."
+msgstr ""
+
+#: src/modules/AdminAwaitingApprovalNotification.php:127
+#: src/modules/ApprovedOrderNotification.php:105
+#: src/modules/PendingPaymentNotification.php:105
+#: src/modules/RejectedOrderNotification.php:105
+msgid "Email Heading"
+msgstr ""
+
+#: src/modules/AdminAwaitingApprovalNotification.php:129
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: src/modules/AdminAwaitingApprovalNotification.php:134
+#: src/modules/ApprovedOrderNotification.php:112
+#: src/modules/PendingPaymentNotification.php:112
+#: src/modules/RejectedOrderNotification.php:112
+msgid "Email type"
+msgstr ""
+
+#: src/modules/AdminAwaitingApprovalNotification.php:136
+#: src/modules/ApprovedOrderNotification.php:114
+#: src/modules/PendingPaymentNotification.php:114
+#: src/modules/RejectedOrderNotification.php:114
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: src/modules/ApprovedOrderNotification.php:18
+msgid "Approved Order Notification"
+msgstr ""
+
+#: src/modules/ApprovedOrderNotification.php:19
+msgid "This email is sent when an order status changes to approved"
+msgstr ""
+
+#: src/modules/ApprovedOrderNotification.php:24
+#: src/modules/ApprovedOrderNotification.php:101
+#: src/modules/ApprovedOrderNotification.php:102
+msgid "Your Order #{order_number} has been confirmed"
+msgstr ""
+
+#: src/modules/ApprovedOrderNotification.php:25
+#: src/modules/ApprovedOrderNotification.php:108
+#: src/modules/ApprovedOrderNotification.php:109
+msgid "Order #{order_number} confirmed"
+msgstr ""
+
+#: src/modules/ApprovedOrderNotification.php:100
+msgid "This controls the email subject line. Leave blank to use the default subject: \"{site_title} - Your Order #{order_number} has been confirmed\"."
+msgstr ""
+
+#: src/modules/ApprovedOrderNotification.php:107
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading: \"Order #{order_number} confirmed\"."
+msgstr ""
+
+#: src/modules/PendingPaymentNotification.php:18
+msgid "Pending Payment Notification"
+msgstr ""
+
+#: src/modules/PendingPaymentNotification.php:19
+msgid "This email is sent when an order status changes to pending payment."
+msgstr ""
+
+#: src/modules/PendingPaymentNotification.php:24
+#: src/modules/PendingPaymentNotification.php:101
+#: src/modules/PendingPaymentNotification.php:102
+msgid "Your Order #{order_number} Requires Payment"
+msgstr ""
+
+#: src/modules/PendingPaymentNotification.php:25
+#: src/modules/PendingPaymentNotification.php:108
+#: src/modules/PendingPaymentNotification.php:109
+msgid "Pay Now to Secure Your Order"
+msgstr ""
+
+#: src/modules/PendingPaymentNotification.php:100
+msgid "This controls the email subject line. Leave blank to use the default subject: \"{site_title} - Your Order #{order_number} Requires Payment\"."
+msgstr ""
+
+#: src/modules/PendingPaymentNotification.php:107
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading: \"Payment Pending for Order #{order_number}\"."
+msgstr ""
+
+#: src/modules/PrePayGateway.php:23
+#: src/modules/PrePayGateway.php:58
+msgid "Pre Order"
+msgstr ""
+
+#: src/modules/PrePayGateway.php:24
+msgid "Allows customers to place orders without making a payment."
+msgstr ""
+
+#: src/modules/PrePayGateway.php:51
+msgid "Enable Pre Order Payment"
+msgstr ""
+
+#: src/modules/PrePayGateway.php:55
+msgid "Title"
+msgstr ""
+
+#: src/modules/PrePayGateway.php:57
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: src/modules/PrePayGateway.php:62
+msgid "Description"
+msgstr ""
+
+#: src/modules/PrePayGateway.php:64
+#: src/modules/PrePayGateway.php:70
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: src/modules/PrePayGateway.php:65
+msgid "Place an order without making a payment. Payment will be processed later."
+msgstr ""
+
+#: src/modules/PrePayGateway.php:68
+msgid "Instructions"
+msgstr ""
+
+#: src/modules/PrePayGateway.php:71
+msgid "Thank you! Your order is pending approval. You will be notified once reviewed."
+msgstr ""
+
+#: src/modules/RejectedOrderNotification.php:18
+msgid "Rejected Order Notification"
+msgstr ""
+
+#: src/modules/RejectedOrderNotification.php:19
+msgid "This email is sent when an order status changes to rejected"
+msgstr ""
+
+#: src/modules/RejectedOrderNotification.php:24
+#: src/modules/RejectedOrderNotification.php:101
+#: src/modules/RejectedOrderNotification.php:102
+msgid "Your Order #{order_number} has been rejected"
+msgstr ""
+
+#: src/modules/RejectedOrderNotification.php:25
+#: src/modules/RejectedOrderNotification.php:108
+#: src/modules/RejectedOrderNotification.php:109
+msgid "Order #{order_number} rejected"
+msgstr ""
+
+#: src/modules/RejectedOrderNotification.php:100
+msgid "This controls the email subject line. Leave blank to use the default subject: \"{site_title} - Your Order #{order_number} has been rejected\"."
+msgstr ""
+
+#: src/modules/RejectedOrderNotification.php:107
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading: \"Order #{order_number} rejected\"."
+msgstr ""
+
+#: templates/emails/admin-awaiting-approval-notification.php:9
+#: templates/emails/plain/admin-awaiting-approval-notification.php:8
+msgid "You have received a new order #%d that is pending approval."
+msgstr ""
+
+#: templates/emails/approved-order-notification.php:15
+#: templates/emails/pending-payment-notification.php:14
+msgid "Your order #%d has been approved."
+msgstr ""
+
+#: templates/emails/pending-payment-notification.php:23
+msgid "Payment Instructions"
+msgstr ""
+
+#: templates/emails/pending-payment-notification.php:24
+msgid "To complete your order, please click the following link to proceed with payment "
+msgstr ""
+
+#: templates/emails/pending-payment-notification.php:25
+msgid "Pay now"
+msgstr ""
+
+#: templates/emails/plain/approved-order-notification.php:12
+msgid "New order #%d has been approved. The order details:"
+msgstr ""
+
+#: templates/emails/plain/approved-order-notification.php:14
+msgid "Please pay the order by clicking here %s "
+msgstr ""
+
+#: templates/emails/plain/pending-payment-notification.php:12
+msgid "Your order #%d has been approved. The order details:"
+msgstr ""
+
+#: templates/emails/plain/pending-payment-notification.php:14
+msgid "To complete your order, please click the link to proceed with payment here %s "
+msgstr ""
+
+#: templates/emails/plain/rejected-order-notification.php:12
+msgid "Your order #%d has been rejected. The order details:"
+msgstr ""
+
+#: templates/emails/rejected-order-notification.php:15
+msgid "Your order #%d has been rejected."
+msgstr ""
